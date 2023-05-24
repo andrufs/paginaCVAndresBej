@@ -1,0 +1,132 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #BDB76B;
+  background-image: url("Index/text.jpg");
+  text-align: center;
+}
+
+.horizontal-list {
+  background-color: rgba(255, 255, 255, 0.5);
+  font-family: Arial, sans-serif;
+  color: white;
+  font-size: 25px;
+  width: 100%; /* Ancho del contenedor */
+  text-align: center; /* Centra los elementos de la lista */
+}
+
+.horizontal-list ul {
+  /*list-style-type: none; /* Quita los estilos de la lista */
+  padding: 10;
+}
+
+.horizontal-list  li {
+  display: inline; /* Muestra los elementos en línea */
+  margin: 0 30px; /* Espaciado entre los elementos de la lista */
+}
+
+.primerp {
+   display: grid;
+  grid-template-columns: 1fr 1fr; /* Dos columnas de igual tamaño */
+  grid-gap: 10px; /* Espacio entre las columnas */
+}
+
+.columnatxt1 {
+  
+  padding: 20px;
+  font-size:20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.columnajpg1 {
+  
+  padding: 20px;
+}
+
+.primerp2 {
+   display: grid;
+  grid-template-columns: 1fr 1fr; /* Dos columnas de igual tamaño */
+  grid-gap: 10px; /* Espacio entre las columnas */
+}
+
+.columnatxt21 {
+  
+  padding: 20px;
+  font-size:20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.columnajpg21 {
+  
+  padding: 20px;
+}
+
+
+form {
+  width: 300px;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.formulario {
+
+  display: inline-block;
+  margin: 0 auto;
+	
+}
+.footer {
+  background-color: rgba(85, 107, 47, 0.5);
+  color: #fff; /* Color de texto blanco */
+  padding: 20px;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.contacto {
+  text-align: center;
+}
+
+.contacto h4 {
+  margin-bottom: 10px;
+}
+
+.contacto ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contacto li {
+  margin-bottom: 5px;
+}
+
+.contacto i {
+  margin-right: 5px;
+}
