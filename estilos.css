@@ -1,3 +1,4 @@
+/*estilos generales*/
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -6,7 +7,7 @@ body {
   background-image: url("Index/text.jpg");
   text-align: center;
 }
-
+/*estilos menu horizontal*/
 .horizontal-list {
   background-color: rgba(255, 255, 255, 0.5);
   font-family: Arial, sans-serif;
@@ -25,7 +26,7 @@ body {
   display: inline; /* Muestra los elementos en línea */
   margin: 0 30px; /* Espaciado entre los elementos de la lista */
 }
-
+/*estilos de parrafo 1*/
 .primerp {
    display: grid;
   grid-template-columns: 1fr 1fr; /* Dos columnas de igual tamaño */
@@ -46,7 +47,7 @@ body {
   
   padding: 20px;
 }
-
+/*estilos de parrafo 2*/
 .primerp2 {
    display: grid;
   grid-template-columns: 1fr 1fr; /* Dos columnas de igual tamaño */
@@ -68,7 +69,7 @@ body {
   padding: 20px;
 }
 
-
+/*estilos generales de formulario*/
 form {
   width: 300px;
   display: inline-block;
@@ -99,6 +100,7 @@ input[type="submit"] {
   margin: 0 auto;
 	
 }
+/*estilos generales de footer */
 .footer {
   background-color: rgba(85, 107, 47, 0.5);
   color: #fff; /* Color de texto blanco */
